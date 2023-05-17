@@ -10,7 +10,7 @@ const fs=require('fs');
 const Snowball= require('snowball-stemmers');
 const stopwords=require('./StopWords.js')
 
-const PORT=3000;
+const PORT=3001;
 const connectioString='mongodb+srv://abouelhadidola:8aWAvyLwc824XSm8@searchengine.uwkyb5b.mongodb.net/?retryWrites=true&w=majority';
 
 app.use(bodyParser.json());
